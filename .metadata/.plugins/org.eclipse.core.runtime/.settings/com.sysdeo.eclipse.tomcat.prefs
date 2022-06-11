@@ -1,0 +1,10 @@
+computeSourcePath=true
+contextsDir=E\:\\Workspace\\ap\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+managerPassword=admin
+managerUrl=http\://localhost\:8080/manager
+managerUser=admin
+tomcatConfigFile=E\:\\Workspace\\ap\\conf\\server.xml
+tomcatDir=E\:\\Workspace\\ap
+tomcatVersion=tomcatV6
