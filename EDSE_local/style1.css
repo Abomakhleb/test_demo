@@ -1,0 +1,55 @@
+
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 1px solid #4778d9!important;
+}
+
+
+
+
+
+
+/* Useless styles, just for demo design */
+
+body {
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  color: #777;
+}
+h1, h2 {
+  margin-bottom: 5px;
+  font-weight: normal;
+  text-align: center;
+}
+h2 {
+  margin: 5px 0 2em;
+  color: #aaa;
+}
+form {
+  width: 80px;
+  margin: 0 auto;
+}
+.txtcenter {
+  margin-top: 4em;
+  font-size: .9em;
+  text-align: center;
+  color: #aaa;
+}
+.copy {
+ margin-top: 2em; 
+}
+.copy a {
+ text-decoration: none;
+ color: #4778d9;
+}
